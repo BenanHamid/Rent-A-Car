@@ -1,0 +1,47 @@
+/* ------------------------------------------------------------ *\
+	Section
+\* ------------------------------------------------------------ */
+
+.section { width: 50%; text-align: center;  }
+
+/* ------------------------------------------------------------ *\
+	Ui-datepicker-calendar
+\* ------------------------------------------------------------ */
+
+.ui-datepicker-calendar { display: none; }
+.ui-datepicker-month { display: none; }
+.ui-datepicker-next,.ui-datepicker-prev { display:none; }
+
+/* ------------------------------------------------------------ *\
+	Filter
+\* ------------------------------------------------------------ */
+
+.filter { display: inline-block; padding: 10px 0; background-color: #ccc; }
+
+.filter > p { margin-top: 10px; }
+
+/* ------------------------------------------------------------ *\
+	Form-invoice
+\* ------------------------------------------------------------ */
+
+.form-invoice .form__actions { margin: 10px 10px; }
+
+/* ------------------------------------------------------------ *\
+	Table-invoice
+\* ------------------------------------------------------------ */
+
+#table-invoice { width: 100%; border-collapse: collapse; }
+
+#table-invoice td,
+#table-invoice th { border: 1px solid #ddd; text-align: left; padding: 8px; }
+
+#table-invoice tr:nth-child(even) { background-color: #ddd; }
+#table-invoice #total-sum { background-color: #ddd;  }
+
+/* ------------------------------------------------------------ *\
+	Button
+\* ------------------------------------------------------------ */
+
+.btn-car > a,
+.btn-home > a,
+.btn-invoice > a { display: block; }
